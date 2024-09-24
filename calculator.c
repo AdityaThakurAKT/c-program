@@ -11,9 +11,9 @@ int main(){
 	printf("\nEnter operation code : ");
     scanf("%s",&ope);
     printf("Enter first num  : ");
-    scanf("%d",&num1);
+    scanf("%lf",&num1);
     printf("Enter second num : ");
-    scanf("%d",&num2);
+    scanf("%lf",&num2);
 
 
 if(strcmp(ope,"add")==0){
@@ -23,7 +23,7 @@ if(strcmp(ope,"add")==0){
 	//printf("Enter second num : ");
 	//scanf("%d",&num2);
     oadd=num1+num2;
-    printf("Sum of %d and %d is %d",num1,num2,oadd);
+    printf("Sum of %lf and %lf is %lf",num1,num2,oadd);
     printf(" \n");
     
 }if(strcmp(ope,"sub")==0){
@@ -40,18 +40,18 @@ if(strcmp(ope,"add")==0){
     // printf("Enter first num  : ");
     // scanf("%d",&num1);
     // printf("Enter second num : ");
-    // scanf("%d",&num2);
+    // scanf("%lf",&num2);
     omlt=num1*num2;
-    printf("multiply of %d and %d is %d",num1,num2,omlt);
+    printf("multiply of %lf and %lf is %lf",num1,num2,omlt);
     printf(" \n");
     
 }if(strcmp(ope,"div")==0){
     // printf("Enter first num  : ");
-    // scanf("%d",&num1);
+    // scanf("%lf",&num1);
     // printf("Enter second num : ");
-    // scanf("%d",&num2);
+    // scanf("%lf",&num2);
     odiv=num1/num2;
-    printf("Division of %d and %d is %d",num1,num2,odiv);
+    printf("Division of %lf and %lf is %lf",num1,num2,odiv);
     printf(" \n");
  }
 } while (1==1);
