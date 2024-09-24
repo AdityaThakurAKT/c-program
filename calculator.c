@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int num1,num2,oadd,osub,omlt,odiv,add;
+    double num1,num2,oadd,osub,omlt,odiv,add;
     char ope[10];
 
     printf("Welcome! to the AKT Calculater.\n \n");
